@@ -59,7 +59,7 @@ public/
 - **Interactive Elements** with hover effects and animations
 - **Accessible Design** with proper contrast and semantic HTML
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone or download** the project files
 2. **Install dependencies**:
@@ -93,7 +93,7 @@ The included article covers:
 - **Challenges and Future Directions**
 - **Comprehensive References** in APA-7 format
 
-## 🎓 Course Information
+##  Course Information
 
 - **Course**: ETI462 - Digital Media Translation
 - **Project Type**: Final Exam Webpage
