@@ -2,61 +2,50 @@
 
 A professional webpage created for the ETI462 Digital Media Translation course final exam. This project demonstrates modern web development practices using React, Tailwind CSS, and Flowbite components.
 
-## 🎯 Project Requirements Met
 
-This project fulfills all the assignment requirements:
-
-### ✅ Assessment Criteria Completed:
-
-1. **WordPress Design (15 pts)** - Professional homepage with slogan and DMT logo
-2. **YouTube Channel Link (15 pts)** - Active hyperlink icon with 3+ videos reference
-3. **LinkedIn Profile Link (15 pts)** - Active hyperlink with CV, hashtags, and experience
-4. **Instagram Link (15 pts)** - Active hyperlink with reels and hashtags
-5. **Written Article (20 pts)** - Professional article with APA-7 references on separate page
-6. **Presentation Ready (20 pts)** - Fully functional and deployable website
-
-### 🏷️ Required Hashtags Included:
+###  Required Hashtags Included:
 - #DigitalMediaTranslation
 - #ÜÜ
 - #IMT
 - #Psychology
 
-## 🚀 Technology Stack
+##  Technology Stack
 
 - **React 18** - Modern JavaScript framework
 - **Vite** - Fast build tool and development server
 - **Tailwind CSS** - Utility-first CSS framework
-- **Flowbite** - Professional UI components
 - **React Router** - Client-side routing
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
 ├── components/
 │   ├── Navbar.jsx          # Navigation component
 │   └── Footer.jsx          # Footer component
+|   └── .......
 ├── pages/
 │   ├── Home.jsx            # Homepage with social media links
 │   └── Article.jsx         # Academic article with APA-7 references
+│   └── About.jsx           # About me page
 ├── App.jsx                 # Main application component
-├── main.jsx               # Application entry point
-└── index.css              # Tailwind CSS imports
+├── main.jsx                # Application entry point
+└── index.css               # Tailwind CSS imports
 
 public/
 └── dmt-logo.svg           # DMT logo (SVG format)
 ```
 
-## 🎨 Features
+##  Features
 
 ### Homepage
-- **Hero Section** with DMT logo and professional slogan
+- **Hero Section**
 - **Social Media Integration** with active hyperlinks to:
-  - YouTube Channel (with 3+ videos reference)
-  - LinkedIn Profile (with CV and experience)
-  - Instagram Account (with reels and hashtags)
-- **About Section** explaining Digital Media Translation services
-- **Responsive Design** that works on all devices
+  - YouTube Channel
+  - LinkedIn Profile 
+  - Instagram Account
+- **About Section**
+- **Responsive Design**
 
 ### Article Page
 - **Academic Article** on "The Evolution of Digital Media Translation"
@@ -86,7 +75,7 @@ public/
    npm run build
    ```
 
-## 🌐 Deployment
+##  Deployment
 
 The project can be deployed to various platforms:
 
@@ -95,7 +84,7 @@ The project can be deployed to various platforms:
 - **GitHub Pages** - Use the built files from `dist` folder
 - **Any static hosting** - Upload the contents of `dist` folder
 
-## 📝 Academic Article
+##  Academic Article
 
 The included article covers:
 - **Introduction** to digital media translation
@@ -111,7 +100,7 @@ The included article covers:
 - **Requirements**: Professional webpage with social media integration and academic article
 - **Technology**: React-based alternative to WordPress (approved by instructor)
 
-## 📱 Social Media Links
+##  Social Media Links
 
 The webpage includes active hyperlinks to:
 - **YouTube**: Educational videos on digital media translation
@@ -120,7 +109,7 @@ The webpage includes active hyperlinks to:
 
 All links include the required DMT logo and hashtags as specified in the assignment.
 
-## 🏆 Professional Standards
+##  Professional Standards
 
 This project demonstrates:
 - **Modern Web Development** practices
@@ -129,13 +118,13 @@ This project demonstrates:
 - **Professional Presentation** suitable for portfolio use
 - **Cross-platform Compatibility**
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of the ETI462 course final exam.
 
 ---
 
-**Created by**: [Student Name]  
+**Created by**: Mohammad Jada  
 **Course**: ETI462 - Digital Media Translation  
-**Institution**: [University Name]  
-**Year**: 2024
+**Institution**: Uskudar University 
+**Year**: 2025
