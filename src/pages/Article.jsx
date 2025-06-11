@@ -1,13 +1,13 @@
 const Article = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-4 py-16">
         {/* Article Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
             From Code to Creation: My Journey as a Fullstack Developer and Game Designer
           </h1>
-          <div className="text-lg text-gray-600 mb-6">
+          <div className="text-lg text-gray-600 dark:text-gray-300 mb-6 transition-colors duration-300">
             <p>A comprehensive overview of my professional experience in web development and game design</p>
             <p className="text-sm mt-2">Published for ETI462 - Digital Media Translation Course</p>
           </div>
@@ -16,9 +16,9 @@ const Article = () => {
 
         {/* Article Content */}
         <article className="prose prose-lg max-w-none">
-          <div className="bg-gray-50 p-6 rounded-lg mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Abstract</h2>
-            <p className="text-gray-700 leading-relaxed">
+          <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg mb-8 transition-colors duration-300">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Abstract</h2>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-300">
               This article presents my professional journey as a fullstack MERN (MongoDB, Express.js, React, Node.js) 
               developer and Unity game designer. Through various projects ranging from web applications to interactive games, 
               I have developed expertise in modern web technologies, user experience design, and digital content creation. 
@@ -28,28 +28,28 @@ const Article = () => {
           </div>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Introduction</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Introduction</h2>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               The digital landscape has transformed dramatically over the past decade, creating new opportunities 
               for developers who can navigate both traditional web technologies and emerging interactive media 
               platforms (Brown, 2020). As a fullstack MERN developer and Unity game designer, I have positioned 
               myself at the intersection of these evolving technologies, developing skills that bridge the gap 
               between conventional web development and interactive digital experiences.
             </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               This article examines my professional development journey, highlighting key projects and technical 
               achievements that demonstrate proficiency in modern web development frameworks and game design 
-              principles. Through detailed analysis of my work on platforms such as <a href="https://glim.blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">Glim.blog</a>, <a href="https://app.Rahalatek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">Rahalatek</a>, and 
+              principles. Through detailed analysis of my work on platforms such as <a href="https://glim.blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">Glim.blog</a>, <a href="https://app.Rahalatek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">Rahalatek</a>, and 
               various Unity-based games, I illustrate how contemporary developers must adapt to an increasingly 
               diverse technological ecosystem (Garcia, 2022).
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Professional Background and Technical Expertise</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Professional Background and Technical Expertise</h2>
             
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Fullstack MERN Development</h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">Fullstack MERN Development</h3>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               My expertise in fullstack development centers on the MERN stack, which provides a comprehensive 
               JavaScript-based solution for modern web applications. The MERN architecture enables developers 
               to maintain consistency across frontend and backend development while leveraging the flexibility 
@@ -58,8 +58,8 @@ const Article = () => {
               contemporary user expectations.
             </p>
             
-            <p className="text-gray-700 leading-relaxed mb-4">
-              One of my significant achievements in web development is <a href="https://glim.blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">Glim.blog</a>, a modern 
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
+              One of my significant achievements in web development is <a href="https://glim.blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">Glim.blog</a>, a modern 
               blogging platform that demonstrates advanced React.js frontend development combined with robust 
               backend API integration. This project showcases my ability to create content management systems 
               that prioritize both user experience and administrative functionality (Johnson, 2021). The platform 
@@ -67,8 +67,8 @@ const Article = () => {
               that exemplifies current best practices in web development.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Another notable project in my portfolio is <a href="https://app.Rahalatek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">Rahalatek</a>, an enterprise-level web 
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
+              Another notable project in my portfolio is <a href="https://app.Rahalatek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">Rahalatek</a>, an enterprise-level web 
               application that demonstrates expertise in building complex, real-time systems. This project 
               showcases advanced state management, real-time data processing, and responsive design principles 
               that are essential in modern business applications (Davis & Wilson, 2022). The application's 
@@ -76,8 +76,8 @@ const Article = () => {
               principles and cloud-based deployment strategies.
             </p>
 
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Unity Game Development and Interactive Media</h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">Unity Game Development and Interactive Media</h3>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               Beyond traditional web development, my expertise extends to Unity game development, where I specialize 
               in game mechanics, systems design, and innovative gameplay concepts using C#. Game development requires 
               a unique combination of technical programming skills, creative design thinking, and understanding of 
@@ -86,8 +86,8 @@ const Article = () => {
               insights into user engagement and interactive design.
             </p>
             
-            <p className="text-gray-700 leading-relaxed mb-4">
-              My game development portfolio, available through my <a href="https://moe2.itch.io" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">itch.io profile</a>, demonstrates proficiency in 
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
+              My game development portfolio, available through my <a href="https://moe2.itch.io" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">itch.io profile</a>, demonstrates proficiency in 
               creating engaging interactive experiences that combine technical excellence with creative vision. 
               These projects showcase various aspects of game development, including complex game mechanics, 
               systems programming, and user interface design. The intersection of web development and game design 
@@ -97,8 +97,8 @@ const Article = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Digital Media Integration and Cross-Platform Development</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Digital Media Integration and Cross-Platform Development</h2>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               The convergence of web development, game design, and digital media represents a significant trend 
               in contemporary technology development. Modern developers must understand how to integrate various 
               media formats, interactive elements, and cross-platform compatibility requirements into cohesive 
@@ -106,7 +106,7 @@ const Article = () => {
               also an understanding of user experience design principles and digital media theory.
             </p>
             
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               My approach to development emphasizes the importance of creating applications that function seamlessly 
               across different platforms and devices. This philosophy aligns with current industry trends toward 
               responsive design, progressive web applications, and cross-platform compatibility (Roberts & Lee, 2021). 
@@ -116,8 +116,8 @@ const Article = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Future Directions and Professional Development</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Future Directions and Professional Development</h2>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               The rapid evolution of digital technologies requires continuous learning and adaptation to emerging 
               tools, frameworks, and design philosophies. My ongoing professional development focuses on emerging 
               technologies such as progressive web applications, real-time communication systems, and immersive 
@@ -125,7 +125,7 @@ const Article = () => {
               the boundaries between web applications, games, and interactive media continue to blur (Garcia, 2022).
             </p>
             
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               Future developments in my career will likely focus on the integration of artificial intelligence, 
               machine learning, and advanced interactive technologies into both web applications and game development. 
               The increasing sophistication of user expectations requires developers who can navigate multiple 
@@ -134,17 +134,17 @@ const Article = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Conclusion</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Conclusion</h2>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               My career as a fullstack MERN developer and Unity game designer represents a commitment to technical 
-              excellence and creative innovation in digital media. Through projects like <a href="https://glim.blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">Glim.blog</a> and <a href="https://app.Rahalatek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-bold">Rahalatek</a>, 
+              excellence and creative innovation in digital media. Through projects like <a href="https://glim.blog" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">Glim.blog</a> and <a href="https://app.Rahalatek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline font-bold transition-colors duration-300">Rahalatek</a>, 
               along with my game development portfolio, I demonstrate the ability to create comprehensive digital 
               solutions that meet both technical requirements and user experience expectations. This multidisciplinary 
               approach reflects the evolving nature of contemporary software development, where success requires 
               proficiency across multiple technological domains.
             </p>
             
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4 transition-colors duration-300">
               The future of digital development lies in the integration of diverse technologies and media formats. 
               As the digital landscape continues to evolve, developers who can navigate multiple domains—from 
               traditional web applications to interactive games and emerging media formats—will be best positioned 
@@ -155,9 +155,9 @@ const Article = () => {
           </section>
 
           {/* References Section */}
-          <section className="border-t-2 border-gray-200 pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">References</h2>
-            <div className="space-y-4 text-sm text-gray-700">
+          <section className="border-t-2 border-gray-200 dark:border-gray-700 pt-8 transition-colors duration-300">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 transition-colors duration-300">References</h2>
+            <div className="space-y-4 text-sm text-gray-700 dark:text-gray-300 transition-colors duration-300">
               <p className="hanging-indent">
                 Anderson, K. (2021). Interactive web applications: The future of browser-based entertainment. 
                 <em>Digital Media Press</em>.
@@ -198,14 +198,15 @@ const Article = () => {
           </section>
 
           {/* Author Information */}
-          <section className="bg-blue-50 p-6 rounded-lg mt-8">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">About the Author</h3>
-            <p className="text-gray-700">
-              This article was prepared as part of the ETI462 Digital Media Translation course, 
-              showcasing the intersection of technical development skills and digital media creation. 
-              The author specializes in fullstack MERN development and Unity game design, with a portfolio 
-              spanning web applications, interactive media, and digital content creation.
-            </p>
+          <section className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-lg p-6 transition-colors duration-300">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 transition-colors duration-300">About the Author</h3>
+              <p className="text-gray-700 dark:text-gray-300 transition-colors duration-300">
+                <strong>Mohammad Jada</strong> is a fullstack MERN developer and Unity game designer with expertise 
+                in modern web technologies and interactive media development. This article was written as part of 
+                the ETI462 Digital Media Translation course portfolio.
+              </p>
+            </div>
           </section>
         </article>
       </div>
